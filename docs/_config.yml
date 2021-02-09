@@ -19,7 +19,7 @@ collections:
     end: true
     location: true
     output: true
-  assignments:
+  homework:
     title: true
     date: true
     output: true
@@ -32,6 +32,9 @@ collections:
   other:
     title: true
     output: false
+  setup:
+    title: true
+    output: true
 defaults:
   -
     scope:
