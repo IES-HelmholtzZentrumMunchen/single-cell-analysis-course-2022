@@ -1,0 +1,19 @@
+### {{ page.title }}
+{{ page.date | date: "%A, %d %B %Y" }} ({{ page.location }})
+
+{{ page.content }}
+
+{% if page.images.size > 0 %}
+<div class="container-fluid">
+  <div class="row">
+    {% for image in page.images %}
+      <div class="col-xs-4">
+        <img src="{{ image | prepend: "assets/media/" | prepend: site.url }}" alt="{{ image }}" class="img-responsive img-circle">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+[&#x02191; Back to Top](#top)
+<hr>

@@ -1,0 +1,65 @@
+title: Single cell analysis course repository
+description: >- # this means to ignore newlines until "baseurl:"
+  Course repository and website for the single cell analysis course WS2019/20.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ies-helmholtzzentrummunchen.github.io/single-cell-analysis-course-2020/" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Europe/Berlin
+collections:
+  lectures:
+    title: true
+    description: true
+    date: true
+    end: true
+    location: true
+    output: true
+  hands-on_sessions:
+    title: true
+    description: true
+    date: true
+    end: true
+    location: true
+    output: true
+  assignments:
+    title: true
+    date: true
+    output: true
+  code:
+    title: true
+    output: true
+  literature:
+    title: true
+    output: true
+  other:
+    title: true
+    output: false
+defaults:
+  -
+    scope:
+      path: ""
+      type: "lectures"
+    values:
+      layout: "lecture"
+  -
+    scope:
+      path: ""
+      type: "hands-on_sessions"
+    values:
+      layout: "lecture"
+  -
+    scope:
+      path: ""
+      type: "code"
+    values:
+      layout: "code"
+  -
+    scope:
+      path: ""
+      type: "literature"
+    values:
+      layout: "code"
+  -
+    scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "code"
