@@ -4,8 +4,8 @@ description: Single cell analysis in epigenetics research - a practical course f
 ---
 
 ## Schedule
-{% assign other = site.other %}
-{% assign homework = site.homework | concat: other %}
+{% assign talks = site.talks %}
+{% assign homework = site.homework | concat: talks %}
 {% assign exercise = site.exercise | concat: homework %}
 {% assign lectures = site.lectures | concat: exercise  %}
 {% assign lectures_sorted = lectures | sort: "date" %}

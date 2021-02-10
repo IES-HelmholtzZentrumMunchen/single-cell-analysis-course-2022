@@ -25,7 +25,7 @@ collections:
   literature:
     title: true
     output: true
-  other:
+  talks:
     title: true
     output: true
   software_setup:
