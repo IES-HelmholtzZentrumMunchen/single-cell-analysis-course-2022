@@ -5,5 +5,5 @@ end: 2021-02-22 16:00:00CET
 ---
 
 <div class="embed-responsive embed-responsive-4by3">
-<iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'notebooks/image-io.html' | prepend: site.url}}">
+<iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'/notebooks/image-io.html' | prepend: site.url }}">
 </div>
