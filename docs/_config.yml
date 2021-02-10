@@ -7,16 +7,13 @@ timezone: Europe/Berlin
 collections:
   lectures:
     title: true
-    description: true
     date: true
     end: true
     location: false
     output: true
   exercises:
     title: true
-    description: true
     date: true
-    end: true
     output: true
   homework:
     title: true
