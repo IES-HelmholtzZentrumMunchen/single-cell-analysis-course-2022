@@ -32,6 +32,9 @@ collections:
   coding_bootcamp:
     title: true
     output: true
+  interactive:
+    title: true
+    output: true
 defaults:
   -
     scope:
