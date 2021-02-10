@@ -12,13 +12,6 @@ collections:
     end: true
     location: true
     output: true
-  hands-on_sessions:
-    title: true
-    description: true
-    date: true
-    end: true
-    location: true
-    output: true
   homework:
     title: true
     date: true
@@ -31,7 +24,7 @@ collections:
     output: true
   other:
     title: true
-    output: false
+    output: true
   setup:
     title: true
     output: true
@@ -40,12 +33,6 @@ defaults:
     scope:
       path: ""
       type: "lectures"
-    values:
-      layout: "lecture"
-  -
-    scope:
-      path: ""
-      type: "hands-on_sessions"
     values:
       layout: "lecture"
   -
@@ -63,6 +50,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "assignments"
+      type: "homework"
     values:
       layout: "code"
