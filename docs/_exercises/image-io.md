@@ -3,12 +3,12 @@ title: Reading and writing images with Python
 date: 2021-02-22 14:00:00CET
 end: 2021-02-22 16:00:00CET
 ---
-
+In this exercise, we will explore ways to read in one or multiple image files, then explore basic image properties and finally display the images on the screen.
 
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#notebook_rendered" aria-expanded="false" aria-controls="notebook_rendered">
   Notebook preview
 </a>
-<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/blob/master/notebooks/01_image_io.ipynb">
+<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/01_image_io.ipynb">
   Download notebook
 </a>
 
