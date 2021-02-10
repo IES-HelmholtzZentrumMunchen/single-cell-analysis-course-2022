@@ -35,6 +35,8 @@ collections:
   interactive:
     title: true
     output: true
+  notebooks:
+    output: true
 defaults:
   -
     scope:
@@ -90,3 +92,7 @@ defaults:
       type: "other"
     values:
       layout: "code"
+-
+    scope:
+      path: "notebooks"
+      type: "notebooks"
