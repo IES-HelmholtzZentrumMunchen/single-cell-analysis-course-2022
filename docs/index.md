@@ -4,10 +4,10 @@ description: Single cell analysis in epigenetics research - a practical course f
 ---
 
 ## Schedule
-{% assign hands-on = site.hands-on_sessions %}
-{% assign assignments = site.assignments | concat: hands-on %}
-{% assign other = site.other | concat: assignments %}
-{% assign lectures = site.lectures | concat: other  %}
+{% assign other = site.other %}
+{% assign homework = site.homework | concat: other %}
+{% assign exercise = site.exercise | concat: other %}
+{% assign lectures = site.lectures | concat: exercise  %}
 {% assign lectures_sorted = lectures | sort: "date" %}
 
 {% assign prevdate = "0" %}
@@ -19,7 +19,7 @@ description: Single cell analysis in epigenetics research - a practical course f
 
     {% if lecture.collection == "lectures" %}
       {% assign tblstyle = "background-color: #ffccaa;" %}
-    {% elsif lecture.collection == "hands-on_sessions" %}
+    {% elsif lecture.collection == "exercises" %}
       {% assign tblstyle = "background-color: #99ddff;" %}
     {% elsif lecture.collection == "other" %}
       {% assign tblstyle = "background-color: #eeeebb;" %}
