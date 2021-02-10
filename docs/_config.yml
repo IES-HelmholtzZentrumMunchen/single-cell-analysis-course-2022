@@ -92,7 +92,3 @@ defaults:
       type: "other"
     values:
       layout: "code"
--
-    scope:
-      path: "notebooks"
-      type: "notebooks"
