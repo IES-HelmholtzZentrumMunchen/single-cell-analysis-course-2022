@@ -10,14 +10,17 @@ collections:
     description: true
     date: true
     end: true
-    location: true
+    location: false
+    output: true
+  exercises:
+    title: true
+    description: true
+    date: true
+    end: true
     output: true
   homework:
     title: true
     date: true
-    output: true
-  code:
-    title: true
     output: true
   literature:
     title: true
@@ -25,7 +28,7 @@ collections:
   other:
     title: true
     output: true
-  setup:
+  software_setup:
     title: true
     output: true
   coding_bootcamp:
@@ -41,13 +44,31 @@ defaults:
   -
     scope:
       path: ""
-      type: "code"
+      type: "exercises"
+    values:
+      layout: "lecture"
+  -
+    scope:
+      path: ""
+      type: "literature"
     values:
       layout: "code"
   -
     scope:
       path: ""
-      type: "literature"
+      type: "coding_bootcamp"
+    values:
+      layout: "code"
+  -
+    scope:
+      path: ""
+      type: "software_setup"
+    values:
+      layout: "code"
+  -
+    scope:
+      path: ""
+      type: "interactive"
     values:
       layout: "code"
   -
