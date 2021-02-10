@@ -28,6 +28,9 @@ collections:
   setup:
     title: true
     output: true
+  coding_bootcamp:
+    title: true
+    output: true
 defaults:
   -
     scope:
@@ -51,5 +54,11 @@ defaults:
     scope:
       path: ""
       type: "homework"
+    values:
+      layout: "code"
+  -
+    scope:
+      path: ""
+      type: "other"
     values:
       layout: "code"
