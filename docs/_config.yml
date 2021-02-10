@@ -35,8 +35,6 @@ collections:
   interactive:
     title: true
     output: true
-  notebooks:
-    output: true
 defaults:
   -
     scope:
