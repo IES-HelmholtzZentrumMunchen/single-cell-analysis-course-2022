@@ -14,6 +14,7 @@ collections:
   exercises:
     title: true
     date: true
+    end: true
     output: true
   homework:
     title: true
