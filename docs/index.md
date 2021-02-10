@@ -50,10 +50,10 @@ description: Single cell analysis in epigenetics research - a practical course f
 </table>
 
 
-{% assign sorted = site.collections | sort: 'label' | reverse %}
+{% assign sorted = site.collections | sort: 'label' %}
 
 {% for collection in sorted %}
-{% unless collection.label == "other" %}
+{% unless collection.label == "posts" %}
 ## {{collection.label | replace: "_"," " | capitalize  }}
 {: .bg-section }
 

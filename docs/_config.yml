@@ -50,6 +50,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "talks"
+    values:
+      layout: "lecture"
+  -
+    scope:
+      path: ""
       type: "literature"
     values:
       layout: "code"

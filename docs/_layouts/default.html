@@ -27,9 +27,9 @@
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              {% assign sorted = site.collections | sort: 'label' | reverse %}
+              {% assign sorted = site.collections | sort: 'label'  %}
               {% for collection in sorted %}
-                {% unless collection.label == "other" %}
+                {% unless collection.label == "posts" %}
                   <li><a class="nav-link" href="#{{collection.label | replace: "_", "-"}}">{{ collection.label | replace: "_", " " | capitalize }}</a></li>
                 {% endunless %}
               {% endfor %}
