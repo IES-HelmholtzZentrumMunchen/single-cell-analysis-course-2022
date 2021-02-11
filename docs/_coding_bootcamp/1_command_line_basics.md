@@ -1,6 +1,6 @@
 ---
 title: Command line basics
-collapsible: no
+collapsible: false
 ---
 
 If you've already done some programming, or are aspiring to learn it, you will sooner or later encounter that most scientific software requires some degree of proficiency with the command line. On different operating systems, there are different command language interpreters, for example:
