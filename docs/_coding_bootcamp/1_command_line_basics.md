@@ -1,7 +1,8 @@
 ---
 title: Command line basics
-collapsible: false
+collapsible: no
 ---
+
 If you've already done some programming, or are aspiring to learn it, you will sooner or later encounter that most scientific software requires some degree of proficiency with the command line. On different operating systems, there are different command language interpreters, for example:
   * On Windows, the [shell](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
   * On Linux/Unix, [bash](https://www.gnu.org/software/bash/manual/bash.html)

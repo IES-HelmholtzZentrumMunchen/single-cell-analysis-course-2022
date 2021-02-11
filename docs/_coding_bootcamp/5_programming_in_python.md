@@ -1,4 +1,4 @@
 ---
 title: Python programming
-collapsible: false
+collapsible: no
 ---

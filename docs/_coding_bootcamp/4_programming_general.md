@@ -1,4 +1,4 @@
 ---
 title: General coding concepts
-collapsible: false
+collapsible: no
 ---

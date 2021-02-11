@@ -1,19 +1,19 @@
-{% if page.collapsible == true }
+{% if page.collapsible == "yes" }
 <div class="card">
   <div class="card-header" id="{{ page.title | append: '-heading'}}">
-      <a class="btn btn-link" data-toggle="collapse" href="#{{ page.title }}" role="button" aria-expanded="false" aria-controls="{{ page.title }}">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#{{ page.title | append: '-content' }}" role="button" aria-expanded="true" aria-controls="{{ page.title | append: '-content' }}">
           {{ page.title }}
-      </a>
+      </button>
   </div>
 
-  <div class="collapse show" id="{{ page.title }}" aria-labelledby="{{ page.title | append: '-heading'}}">
+  <div class="collapse show" id="{{ page.title | append: '-content' }}" aria-labelledby="{{ page.title | append: '-heading'}}">
     <div class="card-body">
       {{ page.content }}
     </div>
   </div>
 </div>
 
-{% elsif page.collapsible == false %}
+{% elsif page.collapsible == "no" %}
 ### {{ page.title }}
 {{ page.content }}
 {% endif %}
