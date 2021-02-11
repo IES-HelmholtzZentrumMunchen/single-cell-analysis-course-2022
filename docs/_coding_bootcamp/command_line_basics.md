@@ -12,20 +12,7 @@ For our course, you will need only the most basic commands which you may already
 
 Some commands are also directly accessible trough the Jupyter [magic fucntions](https://ipython.readthedocs.io/en/stable/interactive/magics.html) that start with `%`. We'll focus on bash, because that's what is integrated into Jupyter; but if you work on a Windows or Mac system, it will be good if you get familiar with the commands specific for you operating system.
 
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Navigating the file system
-        </button>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-
-### Navigationg the file system
+### Navigating the file system
 
 How to change the directory?
 ```bash
@@ -69,20 +56,6 @@ drwxrwxrwx 1 andreas andreas 4096 Feb 10 11:04 nn_models
 drwxrwxrwx 1 andreas andreas 4096 Feb 11 09:47 notebooks
 drwxrwxrwx 1 andreas andreas 4096 Feb 10 11:00 sample_data
 ```
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          Basic file operations
-        </button>
-      </h5>
-    </div>
-
-    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
 
 ### Basic file operations
 
@@ -130,8 +103,3 @@ andreas@Ceto:~/Documents/Projects/scater$ rm README.md
 andreas@Ceto:~/Documents/Projects/scater$ rmdir test
 andreas@Ceto:~/Documents/Projects/scater$
 ```
-
-      </div>
-    </div>
-  </div>
-</div>
