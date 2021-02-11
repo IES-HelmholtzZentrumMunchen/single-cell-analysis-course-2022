@@ -1,6 +1,6 @@
 ---
 title: Basic file operations
-collapsible: yes
+collapsible: true
 ---
 How to make a new directory? Try out `mkdir`
 ```bash

@@ -1,6 +1,10 @@
 ### {{ page.title }}
 {{ page.content }}
-**{{ page.collapsible }}**
+{% if page.collapsible == true %}
+ Yes it's true!
+{% elsif page.collapsible == flase %}
+ No it ain't!
+{% endif%}
 
 
 [&#x02191; Back to Top](#top)

@@ -1,6 +1,6 @@
 ---
 title: Navigating the file system
-collapsible: yes
+collapsible: true
 ---
 How to change the directory? Use `cd` to navigate the file system.
 ```bash
