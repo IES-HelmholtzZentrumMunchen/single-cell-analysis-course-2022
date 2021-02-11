@@ -1,7 +1,7 @@
 {% if page.collapsible == true %}
-{{ page.title }}
-<a class="btn btn-outline-primary" data-toggle="collapse" href="#{{ page.title | replace: ' ', '-' }}" aria-expanded="false" aria-controls="{{  page.title | replace: ' ', '-' }}">
-    Show      
+## {{ page.title }}
+<a class="btn btn-outline-primary" role="button" data-toggle="collapse" href="#{{ page.title | replace: ' ', '-' }}" aria-expanded="false" aria-controls="{{  page.title | replace: ' ', '-' }}">
+    Show
 </a>
 
 <div id="{{  page.title | replace: ' ', '-' }}" class="collapse">
