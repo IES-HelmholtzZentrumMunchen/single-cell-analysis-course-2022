@@ -1,9 +1,23 @@
 ### {{ page.title }}
 {{ page.content }}
 {% if page.collapsible == true %}
- Yes it's true!
-{% elsif page.collapsible == flase %}
- No it ain't!
+<div class="card">
+  <div class="card-header" id="{{ page.name | append: '-heading'}}">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#{{ page.name | append: '-content' }}" aria-expanded="true" aria-controls="{{ page.name | append: '-content' }}">
+          {{ page.title }}
+      </button>
+  </div>
+
+  <div id="{{ page.name | append: '-content' }}" class="collapse show" aria-labelledby="{{ page.name | append: '-heading' }}">
+    <div class="card-body">
+      {{ page.content }}
+    </div>
+  </div>
+</div>
+
+{% elsif page.collapsible == false %}
+## {{ page.title }}
+  {{ page.content }}
 {% endif%}
 
 
