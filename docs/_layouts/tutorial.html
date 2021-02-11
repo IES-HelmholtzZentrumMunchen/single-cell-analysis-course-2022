@@ -1,17 +1,13 @@
 {% if page.collapsible == true %}
-<div class="card">
-  <div class="card-header" id="{{ page.title | replace: ' ', '-' | append: '-heading'}}">
-      <button class="btn btn-outline-primary btn-block" data-toggle="collapse" data-target="#{{ page.title | replace: ' ', '-' | append: '-content' }}" aria-expanded="true" aria-controls="{{  page.title | replace: ' ', '-' | append: '-content' }}">
-          {{ page.title }}
-      </button>
-  </div>
+{{ page.title }}
+<a class="btn btn-outline-primary" data-toggle="collapse" href="#{{ page.title | replace: ' ', '-' }}" aria-expanded="false" aria-controls="{{  page.title | replace: ' ', '-' }}">
+    Show      
+</a>
 
-  <div id="{{  page.title | replace: ' ', '-' | append: '-content' }}" class="collapse" aria-labelledby="{{ page.title | replace: ' ', '-' | append: '-heading' }}">
-    <div class="card-body">
+<div id="{{  page.title | replace: ' ', '-' }}" class="collapse">
       {{ page.content }}
-    </div>
-  </div>
 </div>
+
 
 {% elsif page.collapsible == false %}
 ## {{ page.title }}
