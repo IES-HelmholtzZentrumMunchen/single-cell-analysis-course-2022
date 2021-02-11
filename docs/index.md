@@ -19,9 +19,11 @@ description: Single cell analysis in epigenetics research - a practical course f
 
     {% if lecture.collection == "lectures" %}
       {% assign tblstyle = "background-color: #ffccaa;" %}
+    {% elsif lecture.collection == "talk" %}
+      {% assign tblstyle = "background-color: #ffccaa;" %}
     {% elsif lecture.collection == "exercises" %}
       {% assign tblstyle = "background-color: #99ddff;" %}
-    {% elsif lecture.collection == "other" %}
+    {% elsif lecture.collection == "homework" %}
       {% assign tblstyle = "background-color: #eeeebb;" %}
     {% else %}
       {% assign tblstyle = "background-color: #ffffff;" %}
