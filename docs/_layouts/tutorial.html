@@ -6,14 +6,14 @@
       </a>
   </div>
 
-  <div class="collapse" id="{{ page.title }}" arialabelledby="{{ page.title | append: '-heading'}}">
+  <div class="collapse show" id="{{ page.title }}" aria-labelledby="{{ page.title | append: '-heading'}}">
     <div class="card-body">
       {{ page.content }}
     </div>
   </div>
 </div>
 
-{% else %}
+{% elsif page.collapsible == false %}
 ### {{ page.title }}
 {{ page.content }}
 {% endif %}
