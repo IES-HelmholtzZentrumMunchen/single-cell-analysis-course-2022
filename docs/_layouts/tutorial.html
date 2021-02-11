@@ -1,0 +1,22 @@
+{% if page.collabsible == true }
+<div class="card">
+  <div class="card-header" id="{{ page.title | append: '-heading'}}">
+      <a class="btn btn-link" data-toggle="collapse" href="#{{ page.title }}" role="button" aria-expanded="false" aria-controls="{{ page.title }}">
+          {{ page.title }}
+      </a>
+  </div>
+
+  <div class="collapse" id="{{ page.title }}" arialabelledby="{{ page.title | append: '-heading'}}">
+    <div class="card-body">
+      {{ page.content }}
+    </div>
+  </div>
+</div>
+
+{% else %}
+### {{ page.title }}
+{{ page.content }}
+{% endif %}
+
+[&#x02191; Back to Top](#top)
+<hr>

@@ -65,7 +65,7 @@ defaults:
       path: ""
       type: "coding_bootcamp"
     values:
-      layout: "code"
+      layout: "tutorial"
   -
     scope:
       path: ""
