@@ -1,4 +1,4 @@
-{% if page.collapsible == true }
+{% if page.collapsible == "true" }
 <div class="card">
   <div class="card-header" id="{{ page.title | append: '-heading'}}">
       <a class="btn btn-link" data-toggle="collapse" href="#{{ page.title }}" role="button" aria-expanded="false" aria-controls="{{ page.title }}">
@@ -13,7 +13,7 @@
   </div>
 </div>
 
-{% elsif page.collapsible == false %}
+{% elsif page.collapsible == "false" %}
 ### {{ page.title }}
 {{ page.content }}
 {% endif %}
