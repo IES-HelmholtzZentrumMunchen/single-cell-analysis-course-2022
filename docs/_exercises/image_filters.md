@@ -17,18 +17,3 @@ In this exercise, we will apply filters to images, and try to understand their f
     <iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'/notebooks/02_image_filters.html' | prepend: site.url }}">
   </div>
 </div>
-
-#### Morphological filters
-
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#morph_filters" aria-expanded="false" aria-controls="morph_filters">
-  Notebook preview
-</a>
-<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/03_morphological_filters.ipynb">
-  Download notebook
-</a>
-
-<div class="collapse" id="morph_filters">
-  <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'/notebooks/03_morphological_filters.html' | prepend: site.url }}">
-  </div>
-</div>
