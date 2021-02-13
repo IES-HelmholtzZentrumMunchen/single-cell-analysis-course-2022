@@ -32,6 +32,7 @@ collections:
   coding_bootcamp:
     title: true
     output: true
+    collapsible: true
   interactive:
     title: true
     output: true
