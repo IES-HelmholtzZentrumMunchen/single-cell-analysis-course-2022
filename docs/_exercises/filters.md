@@ -7,7 +7,7 @@ In this exercise, we will apply filters to images, and try to understand their f
 
 #### Filters
 
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#image_filters" aria-expanded="false" aria-controls="notebook_rendered">
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#image_filters" aria-expanded="false" aria-controls="image_filters">
   Notebook preview
 </a>
 <a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/02_image_filters.ipynb">
@@ -22,7 +22,7 @@ In this exercise, we will apply filters to images, and try to understand their f
 
 #### Morphological filters
 
-<a class="btn btn-primary" role="button" data-toggle="collapse" href="#morph_filters" aria-expanded="false" aria-controls="notebook_rendered">
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#morph_filters" aria-expanded="false" aria-controls="morph_filters">
   Notebook preview
 </a>
 <a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/03_morphological_filters.ipynb">
