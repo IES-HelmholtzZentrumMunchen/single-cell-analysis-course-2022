@@ -1,7 +1,7 @@
 ---
 title: Image filters
-date: 2021-02-23 13:30:00CET
-end: 2021-02-23 14:00:00CET
+date: 2021-02-22 15:00:00CET
+end: 2021-02-22 16:00:00CET
 ---
 In this exercise, we will apply filters to images, and try to understand their function. We will go through some classic filters that are still used frequently as part of image analysis pipelines. We will then apply thresholding filters and finish with morphological filters that work on binary rather than grey scale images.
 

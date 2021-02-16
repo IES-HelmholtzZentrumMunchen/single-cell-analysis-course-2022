@@ -1,7 +1,7 @@
 ---
 title: Morphological filters
-date: 2021-02-23 14:00:00CET
-end: 2021-02-23 15:00:00CET
+date: 2021-02-23 13:30:00CET
+end: 2021-02-23 14:30:00CET
 ---
 Morphological filters work on black and white images and as the name suggests change **morphology** rather than image intensities. In this exercise we will try the effect of some morphological filters and explore their use in image processing pipelines to segment single cells.
 

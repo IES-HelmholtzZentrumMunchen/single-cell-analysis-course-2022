@@ -1,7 +1,7 @@
 ---
 title: Reading and writing images with Python
 date: 2021-02-22 14:00:00CET
-end: 2021-02-22 16:00:00CET
+end: 2021-02-22 15:00:00CET
 ---
 In this exercise, we will explore ways to read in one or multiple image files, then explore basic image properties and finally display the images on the screen.
 

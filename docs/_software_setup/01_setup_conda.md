@@ -1,7 +1,7 @@
 ---
 title: How to set up a python environment
 ---
-We highly recommend using anaconda as Python packet manager. There are other ways to install Python but you will be on your own, but nevertheless we recommend to use a packet manager and work with Python environments. You can think of environments as independent installations that contain their own set of modules that may be dependent on one another. Using environments for different tasks makes sure that you won't run into conflicts, which may emerge if for example one software module is not maintained any more.
+We highly recommend using anaconda as Python packet manager. There are other ways to install Python but you will be on your own. In any case, we recommend using a packet manager and working with Python environments. You can think of environments as independent installations that contain their own set of modules. Using environments for different tasks makes sure that you won't run into conflicts, which may emerge if for example one software module is not maintained any more.
 
 First, please install Anaconda or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for you operating system. Miniconda only has the minimal number of modules pre-installed and will be sufficient for this course.
 
