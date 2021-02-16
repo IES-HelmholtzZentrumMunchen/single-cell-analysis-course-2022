@@ -5,4 +5,4 @@ For the Python package StarDist, please follow the [installation instructions on
 
 If you work on Windows, you will need to install the [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) beforehand. You will not need Visual Studio itself, but when you run the installer select the `C++ build tools` and keep all recommended options as shown below:
 
-![Screenshot Visual Studio installation]({{ '/assets/media/install_vs_c_build_tools.PNG' | prepend: site.url }})
+<img source="{{ '/assets/media/install_vs_c_build_tools.PNG' | prepend: site.url }}" class="img-fluid" alt="Screenshot Visual Studio installation">
