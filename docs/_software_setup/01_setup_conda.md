@@ -5,6 +5,10 @@ We highly recommend using anaconda as Python packet manager. There are other way
 
 First, please install Anaconda or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for you operating system. Miniconda only has the minimal number of modules pre-installed and will be sufficient for this course.
 
+<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/scater.yml">
+  Download yml file
+</a>
+
 After conda is installed, open the conda command line. Follow the next steps to create a new environment and install Python and the required Python modules. You can either install the required modules manually:
 ```
 (base):$ conda create -n scater
@@ -17,7 +21,7 @@ After conda is installed, open the conda command line. Follow the next steps to 
 (scater):$ conda install jupyter
 (scater):$ pip install stardist
 ```
-OR use the provided yml file:
+OR use the provided [yml file]("https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/notebooks/scater.yml"):
 ```
 (base):$ conda env create -f scater.yml
 (base):$ conda activate scater
