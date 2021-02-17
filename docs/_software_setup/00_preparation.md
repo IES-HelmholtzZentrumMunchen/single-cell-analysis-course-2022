@@ -8,7 +8,7 @@ If you work on Windows, you will need to install the [Build Tools for Visual Stu
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12">
-      <img source="{{ '/assets/media/install_vs_c_build_tools.PNG' | prepend: site.url }}" class="img-fluid" alt="Screenshot Visual Studio installation">
+      <img src="{{ '/assets/media/install_vs_c_build_tools.PNG' | prepend: site.url }}" class="img-fluid" alt="Screenshot Visual Studio installation">
     </div>
   </div>
 </div>
