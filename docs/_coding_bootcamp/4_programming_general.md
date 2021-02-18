@@ -137,7 +137,7 @@ while i<len(x):
 5
 42
 ```
-Understand what is happening. In the first case, we first see how many items we have in `x` by using `len(x)`. Then we use the python method `range` to construct a sequence of numbers from `0` to `len(x)`. Then we use this sequentially increasing number as index to access an element in the list `x` and print it. In the `while` loop, we have to first initialize our counter `i`, then set a condition until when the loop should run. Be sure to increase your counter at the end of the loop so that you condition will be met, otherwise your loop will not stop to run and you will have to force quit you Python interpreter.
+Understand what is happening. In the first case, we first see how many items we have in `x` by using `len(x)`. Then we use the python method `range` to construct a sequence of numbers from `0` to `len(x)`. Then we use this sequentially increasing number as index to access an element in the list `x` and print it. In the `while` loop, we have to first initialize our counter `i`, then set a condition until when the loop should run. Be sure to increase your counter at the end of the loop so that you condition will be met, otherwise your loop will not stop to run and you will have to force quit your Python interpreter.
 
 #### If / else statements
 

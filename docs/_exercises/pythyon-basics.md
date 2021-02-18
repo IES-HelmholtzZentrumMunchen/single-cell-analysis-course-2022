@@ -14,6 +14,6 @@ This is a little warmup exercise to get used to some of the features of the Pyth
 
 <div class="collapse" id="python_basics">
   <div class="embed-responsive embed-responsive-4by3">
-    <iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'/notebooks/00_python_basics.html' | prepend: site.url }}">
+    <iframe class="embed-responsive-item" title="Jupyter notebook" src="{{'/notebooks/00_python_warmup.html' | prepend: site.url }}">
   </div>
 </div>
