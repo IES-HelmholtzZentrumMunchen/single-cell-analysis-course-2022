@@ -8,7 +8,7 @@ description: Single cell analysis in epigenetics research - a practical course f
 
 {% for collection in sorted %}
 {% unless collection.label == "posts" %}
-## {{ collection.label  | replace: "_"," " | capitalize  }}
+## {{ collection.label  | replace: "_"," " | slice: 3, collection.label.size | capitalize  }}
 {: .bg-section }
 
 {{ collection.docs}}
