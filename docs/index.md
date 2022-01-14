@@ -5,10 +5,10 @@ description: Single cell analysis in epigenetics research - a practical course f
 
 ## Course schedule
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="python_basics">
-  Course schedule
+  Show
 </a>
-<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2022/raw/master/pdf/schedule.pdf">
-  Download schedule as PDF
+<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2022/blob/master/docs/pdf/schedule.pdf">
+  Download as PDF
 </a>
 
 <div class="collapse" id="schedule">
@@ -16,7 +16,6 @@ description: Single cell analysis in epigenetics research - a practical course f
     <iframe class="embed-responsive-item" title="Schedule" src="{{'/html/schedule.html' | prepend: site.url }}">
   </div>
 </div>
-
 
 {% assign sorted = site.collections | sort: 'label' %}
 
