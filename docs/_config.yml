@@ -5,26 +5,26 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ies-helmholtzzentrummunchen.github.io/single-cell-analysis-course-2022/" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: Europe/Berlin
 collections:
-  lectures:
+  01_lectures:
     title: true
     date: true
     end: true
     location: false
     output: true
-  homework:
+  02_homework:
     title: true
     date: true
     output: true
-  literature:
+  04_literature:
     title: true
     output: true
-  talks:
+  03_talks:
     title: true
     output: true
-  interactive:
+  05_interactive:
     title: true
     output: true
-  schedule:
+  06_schedule:
     title: true
     output: true
 defaults:
