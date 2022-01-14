@@ -37,7 +37,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "02_talks"
+      type: "03_talks"
     values:
       layout: "lecture"
   -
@@ -55,7 +55,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "03_homework"
+      type: "02_homework"
     values:
       layout: "code"
   -
