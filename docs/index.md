@@ -3,7 +3,7 @@ layout: default
 description: Single cell analysis in epigenetics research - a practical course for students of the LMU Munich
 ---
 
-## Schedule
+## Course schedule
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="python_basics">
   Course schedule
 </a>
@@ -11,7 +11,7 @@ description: Single cell analysis in epigenetics research - a practical course f
   Download schedule as PDF
 </a>
 
-<div class="collapse" id="python_basics">
+<div class="collapse" id="schedule">
   <div class="embed-responsive embed-responsive-4by3">
     <iframe class="embed-responsive-item" title="Schedule" src="{{'/html/schedule.html' | prepend: site.url }}">
   </div>
