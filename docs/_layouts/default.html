@@ -30,7 +30,7 @@
               {% assign sorted = site.collections | sort: 'label'  %}
               {% for collection in sorted %}
                 {% unless collection.label == "posts" %}
-                  <li><a class="nav-link" href="#{{collection.label | replace: "_", "-"}}">{{ collection.label | replace: "_", " " | capitalize }}</a></li>
+                  <li><a class="nav-link" href="#{{collection.label | replace: "_", "-" | slice: 3, collection.label.size }}">{{ collection.label | replace: "_", " " | slice: 3, collection.label.size | capitalize }}</a></li>
                 {% endunless %}
               {% endfor %}
             </ul>
