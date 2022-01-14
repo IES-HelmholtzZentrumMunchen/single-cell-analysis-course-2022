@@ -1,8 +1,8 @@
 title: Single cell analysis course repository
 description: >- # this means to ignore newlines until "baseurl:"
-  Course repository and website for the single cell analysis course WS2020/21.
+  Course repository and website for the single cell analysis course WS2021/22.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ies-helmholtzzentrummunchen.github.io/single-cell-analysis-course-2021/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ies-helmholtzzentrummunchen.github.io/single-cell-analysis-course-2022/" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: Europe/Berlin
 collections:
   lectures:

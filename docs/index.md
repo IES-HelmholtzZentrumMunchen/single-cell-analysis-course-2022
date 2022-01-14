@@ -7,7 +7,7 @@ description: Single cell analysis in epigenetics research - a practical course f
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="python_basics">
   Course schedule
 </a>
-<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/pdf/schedule.pdf">
+<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2022/raw/master/pdf/schedule.pdf">
   Download schedule as PDF
 </a>
 
