@@ -1,6 +1,8 @@
 ---
 title: 2021/22 Course schedule
 ---
+Timetable for the course.
+
 
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="python_basics">
   Show
