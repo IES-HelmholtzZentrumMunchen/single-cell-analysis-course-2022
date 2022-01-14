@@ -17,4 +17,4 @@ We set up a Slack channel for the course. Here you can:
 
 #### Team working
 
-For the course homework, you should work in teams. During the first exercise, we will write a small Python script to automatically assign you to a team! Use your own favorite channels of online communication and make use of the Slack channel to chat with your colleagues. On Friday, you will have time to finish your image analysis pipelines and analyze and plot the data. Each team should then present their results on Monday morning in a short (5-10 slides) presentation.
+For the project work, you will work in teams.  Use your own favorite channels of online communication and make use of the Slack channel to chat with your colleagues. On Friday, you will have time to finish your image analysis pipelines and analyze and plot the data. Each team should then present their results on Monday morning in a short (5-10 slides) presentation.

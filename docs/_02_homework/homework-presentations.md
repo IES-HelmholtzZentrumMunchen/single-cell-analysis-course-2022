@@ -1,4 +1,4 @@
 ---
-title: Prepare course protocol and presentations
-date: 2021-02-26 15:00:00CET
+title: Project work and presentations
+date: 2022-02-23 16:00:00CET
 ---
