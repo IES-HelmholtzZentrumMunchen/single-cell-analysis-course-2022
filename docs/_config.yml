@@ -31,31 +31,31 @@ defaults:
   -
     scope:
       path: ""
-      type: "lectures"
+      type: "01_lectures"
     values:
       layout: "lecture"
   -
     scope:
       path: ""
-      type: "talks"
+      type: "02_talks"
     values:
       layout: "lecture"
   -
     scope:
       path: ""
-      type: "literature"
+      type: "04_literature"
     values:
       layout: "code"
   -
     scope:
       path: ""
-      type: "interactive"
+      type: "05_interactive"
     values:
       layout: "code"
   -
     scope:
       path: ""
-      type: "homework"
+      type: "03_homework"
     values:
       layout: "code"
   -
@@ -67,6 +67,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "schedule"
+      type: "06_schedule"
     values:
       layout: "code"
