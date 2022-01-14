@@ -4,52 +4,18 @@ description: Single cell analysis in epigenetics research - a practical course f
 ---
 
 ## Schedule
-{% assign talks = site.talks %}
-{% assign homework = site.homework | concat: talks %}
-{% assign exercise = site.exercises | concat: homework %}
-{% assign lectures = site.lectures | concat: exercise  %}
-{% assign lectures_sorted = lectures | sort: "date" %}
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="python_basics">
+  Course schedule
+</a>
+<a class="btn btn-primary" role="button" href="https://github.com/IES-HelmholtzZentrumMunchen/single-cell-analysis-course-2021/raw/master/pdf/schedule.pdf">
+  Download schedule as PDF
+</a>
 
-{% assign prevdate = "0" %}
-<table class="table table-bordered">
-  {% for lecture in lectures_sorted %}
-
-  {% assign thedate = lecture.date | date: "%d" %}
-  {% assign handle = lecture.collection %}
-
-    {% if lecture.collection == "lectures" %}
-      {% assign tblstyle = "background-color: #ffccaa;" %}
-    {% elsif lecture.collection == "talk" %}
-      {% assign tblstyle = "background-color: #ffccaa;" %}
-    {% elsif lecture.collection == "exercises" %}
-      {% assign tblstyle = "background-color: #99ddff;" %}
-    {% elsif lecture.collection == "homework" %}
-      {% assign tblstyle = "background-color: #eeeebb;" %}
-    {% else %}
-      {% assign tblstyle = "background-color: #ffffff;" %}
-    {% endif %}
-
-
-    {% if thedate != prevdate %}
-      <tr>
-        <td colspan="2" style="font-size: 2rem; font-weight: bold;">
-        {{ lecture.date | date: "%A, %d %B" }}
-        </td>
-      </tr>
-      {% assign prevdate = thedate %}
-    {% endif %}
-
-      <tr>
-        <td style="{{ tblstyle}}">
-            {% if lecture.title contains "Assignment" %}due: {% endif%} {{ lecture.date | date: "%H:%M" }} {% if lecture.end %} - {{ lecture.end | date: "%H:%M" }} {% endif %}
-        </td>
-        <td style="{{ tblstyle}}">
-          <a href="#{{ lecture.title | downcase | replace: "'","" | replace: ",", "" | replace: " ", "-" | replace: ")", "" | replace: "(","" }}">{{ lecture.title }}</a>
-        </td>
-      </tr>
-
-  {% endfor %}
-</table>
+<div class="collapse" id="python_basics">
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" title="Schedule" src="{{'/html/schedule.html' | prepend: site.url }}">
+  </div>
+</div>
 
 
 {% assign sorted = site.collections | sort: 'label' %}
