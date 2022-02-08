@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="98.257935mm"
-   height="28.250792mm"
-   viewBox="0 0 98.257935 28.250792"
+   width="98.032555mm"
+   height="22.977827mm"
+   viewBox="0 0 98.032555 22.977827"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -43,10 +43,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.75183664"
-     inkscape:cx="476.96394"
-     inkscape:cy="-15.23303"
+     inkscape:cx="476.11211"
+     inkscape:cy="-35.16233"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1201"
+     inkscape:current-layer="g823"
      showgrid="false"
      inkscape:window-width="1678"
      inkscape:window-height="972"
@@ -69,7 +69,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-58.629464,-137.73174)">
+     transform="translate(-58.854844,-137.73174)">
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,57.484666,168.01514)"
        inkscape:label="SCATER_logo"
@@ -940,16 +940,6 @@
           </g>
         </g>
       </g>
-      <text
-         id="text1223"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:'Helvetica Neue';-inkscape-font-specification:HelveticaNeue;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         transform="matrix(1,0,0,-1,2.52,8.0498)">
-        <tspan
-           id="tspan1221"
-           sodipodi:role="line"
-           y="0"
-           x="0 7.1279998 9.5699997 15.686 22 24.441999 30.349001 33.407001 41.348999 47.256001 49.698002 52.139999 55.198002 62.326 68.442001 74.348999 76.791 82.291 87.791 90.233002 95.733002 98.791 103.884 109.791 115.698 121.814 124.256 130.37199 132.814 139.33701 145.453 151.36 156.86 159.918 162.36 168.476 171.534 178.255 184.778 187.22 193.534 199.44099 205.55701 211.464 214.929 217.371 223.278 228.778 231.836 239.371 245.278 250.778 256.685 262.59201 266.05701 271.96399">Single Cell Analysis Techiniques in Epigenetics Research</tspan>
-      </text>
     </g>
   </g>
 </svg>
